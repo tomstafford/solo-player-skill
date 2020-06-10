@@ -43,3 +43,7 @@ sudo -u tom psql tom < gamesdb
 #from interactive postgres serve
 tom=# \copy public.play (player_id, game_id, time_end, team, mean, std) TO 'temp.csv' CSV HEADER
 
+#data big and small
+
+The full data is 31,225,756 rows. So we make a small version to play with, of just 10,000 rows play_data10000.csv
+
