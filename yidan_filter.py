@@ -105,3 +105,5 @@ for item in solo_dict:
 
 target_file.close()
 filtered_file.close()
+
+# 1013582 rows
