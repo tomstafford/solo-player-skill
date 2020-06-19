@@ -105,3 +105,8 @@ for item in solo_dict:
 
 target_file.close()
 filtered_file.close()
+<<<<<<< HEAD
+=======
+
+# 1013582 rows
+>>>>>>> 88f9ed422e3b1e5a9c4f837e7421f1d66d348ca4
