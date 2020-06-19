@@ -76,7 +76,7 @@ def solo_player_finder(table_path, group_game_set):
 # excute step 1&2
 original_table_path = "play_data.csv"
 
-MIN_FREQ = 10
+MIN_FREQ = 100
 
 solo_player_set = solo_player_finder(original_table_path, group_game_finder(original_table_path))
 
