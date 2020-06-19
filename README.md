@@ -47,3 +47,11 @@ tom=# \copy public.play (player_id, game_id, time_end, team, mean, std) TO 'temp
 
 The full data is 31,225,756 rows. So we make a small version to play with, of just 10,000 rows play_data10000.csv
 
+# Files
+
+yidan_filter.py - a script of yidan's notebook for filtering the data
+
+yidan_vis.py - a script of yidan's notebook for plotting the data. Doesn't work for larger datasets
+
+tom_vis.py - a script for plotting the data, should work with larger subsamples of the raw data
+
